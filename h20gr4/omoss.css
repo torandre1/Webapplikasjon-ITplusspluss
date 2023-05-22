@@ -1,0 +1,82 @@
+
+/* kilde
+profilkortene, altså medlemmene:
+https://codepen.io/RajRajeshDn/pen/zbNrbZ
+hentet ideer på hvordan profil kortet er bygd 
+@Cecille
+*/
+
+
+
+/*container som inneholder container1 og container2*/
+.OmossContainer{
+ background: #e1e4ef;
+  font-family:sans-serif;
+  max-width: 1500px;
+  border-radius:20px;
+  margin:auto;
+  box-sizing:border-box;
+  padding:40px;
+  margin-top:60px;
+
+}
+
+/*Om oss container */
+.container1{
+    text-align: center;
+    padding:3%;
+    background-color: rgb(73, 132, 160);
+    color:white;    
+    margin-top:50px;
+    border-radius:20px;
+}
+
+.container1 h1{
+font-size: 30px;
+margin-bottom: 20px;
+}
+
+/*it++ team container*/
+.container2{
+    background: #e1e4ef;
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+
+.container2 h1{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.medlemmer{ 
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.medlemmer .medlem{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  position: relative;
+  border-radius: 10%;
+  border-style:groove;
+}
+
+.medlemmer .medlem h3{
+  color: #000000;
+  font-size: 26px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.img{
+    border-radius: 50%;
+}

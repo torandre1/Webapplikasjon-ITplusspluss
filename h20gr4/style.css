@@ -1,0 +1,167 @@
+/*
+ * Styling til alle sidene
+*/
+.wrap{ /*Ramme for bla. se profil, rediger profil, kontaktskjema*/
+    max-width: 1200px;
+    border-radius:20px;
+    margin:10px auto 50px auto;
+    border: solid black 2px;
+    background: #e1e4ef;
+    box-shadow: 5px 8px #888888;
+    box-sizing:border-box;
+    padding:40px;
+}
+.wrap2 { /*Til Cardprofil*/
+    max-width: 800px;
+    border-radius:20px;
+    margin:10px auto 20px auto;
+    border: solid black 2px;
+    background: #e1e4ef;
+    box-shadow: 5px 8px #888888;
+    box-sizing:border-box;
+    padding:10px;
+
+}
+
+
+/*.box2{
+    height:60em;
+    background-image: url('https://images.hdqwalls.com/wallpapers/code.jpg');
+    background-repeat:inherit;
+}*/
+
+/*
+* index.php
+* forside for en bruker som ikke er logget inn
+*/
+.forside {
+    border: solid 3px black;
+    background: #e1e4ef;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 2em;
+    padding: 10em 0em 10em 0em;
+    width: 75%;
+    text-align: center;
+
+}
+.forside h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.forside p {
+    font-size: 20px;
+}
+.logginn-wrapper {
+    margin:auto;
+    width: 90%;
+    text-align: center;
+    padding: 5% 1em 1em 1em;
+}
+/*
+.knapp-logginn {
+    height: 5em;
+    width: 10em;
+    border: solid 2px rgb(135, 179, 199);
+    font-size: 2em;
+    margin-right: 10px;
+
+}
+.knapp-registrer {
+    height: 5em;
+    width: 10em;
+    border: solid 2px rgb(135, 179, 199);
+    font-size: 2em;
+    margin-left: 10px;
+
+}
+.knapp-kategori:hover {
+    background-color:lightblue;
+}*/
+
+
+
+
+/*
+* indexInnlogget.php
+* forside for en bruker som er logget inn
+*/
+.searchbar {
+    margin:auto;
+    width: 75%;
+    text-align: center;
+    padding: 5% 1em 1em 1em;
+}
+.sok-bar {
+    margin: 1em 1em 1em 1em;
+    text-align: center;
+    font-size: 2em;
+    border: none;
+    border-bottom: solid rgb(135, 179, 199) 2px;
+
+}
+.sok-knapp{
+    height: 4em;
+    width: 14em; 
+
+}
+.kategorier {
+    margin:auto;
+    width: 75%;
+    text-align: center;
+
+}
+.knapp-kategori {
+    height: 5em;
+    width: 10em;
+    border: solid 2px rgb(135, 179, 199);
+    font-size: 2em;
+
+}
+.knapp-kategori:hover {
+    background-color:lightblue;
+}
+
+/*
+ * Styling til kontaktoss.php
+ */
+.contact-info {
+    margin: auto;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border: 1px solid black;
+    padding: 20px 10px 4px 10px;
+}
+.contact {
+    width: 65%;
+    border-radius:1em;
+    margin: auto;
+    background: #e1e4ef;
+    padding-bottom: 10px;
+    margin-top: 4em;
+    max-width: 1200px;
+    box-shadow: 5px 8px #888888;
+
+}
+.bold {
+font-weight: bold;
+}
+.contact-text {   
+    /*font-family: 'Source Code Pro', monospace;*/
+    /*font-family: 'Press Start 2P', cursive;*/
+    font-family: 'Syne Mono', monospace;    
+}
+.responsiveimg {
+    height: auto;
+    width: 100%;
+    max-height: 350px;
+    max-width: 500px;
+}
+.footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: whitesmoke;
+        color:black;
+        text-align: center;
+        margin-top:10px;
+      }

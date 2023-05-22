@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* @author Cecille */
+/*Kilde
+hentet ide: https://www.youtube.com/watch?v=nb5BHPYbBBY&list=LL&index=3
+
+/*Css for Registrer.php og Logginn.php*/
+* {
+    box-sizing:border-box;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-family: 'Inter', helvetica, sans-serif;
+    background: #e1e4ef;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0,0,0,.8);
+}
+
+/*a href */
+a {
+    color: #1A49D9;
+    text-decoration: none;
+}
+
+body > * + * {
+    margin-top: 24px;
+}
+
+/*header*/
+header {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+header .tittel {
+    font-size: 24px;
+    color: rgba(0,0,0,.8);
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+header .subtittel {
+    font-size: 16px;
+    color: #1A49D9;
+    opacity: .8;
+}
+
+/*footer*/
+.footer {
+    justify-content:center;
+    align-items:center;
+}
+
+/*container*/
+.container{
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 24px;
+    width: 100%;
+    max-width: 320px;
+}
+
+/*input grupper*/
+
+.input-grupper + .input-grupper {
+    margin-top: 12px;
+}
+
+label {
+    font-weight: 700;
+    color: rgba(0,0,0,.6);
+    padding-bottom: 6px
+}
+
+input {
+    font-family: 'Inter', helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+    transition: all ease-in-out .15s;
+}
+
+input[type=password], input[type=email], input[type=text] {
+    width: 100%;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.2);
+    padding: 12px;
+}
+
+input[type=password]:hover, input[type=email]:hover {
+    border-color: #1A49D9;
+}
+
+input[type=radio] + input[type=radio] {
+    margin-left: 6px
+}
+
+input[type=submit]{
+    background-color:#1A49D9;
+    color: #fff;
+    padding: 0 12px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    width: 100%;
+}
+
+input[type=submit]:hover{
+    background-color:#1A49D9;
+}
+

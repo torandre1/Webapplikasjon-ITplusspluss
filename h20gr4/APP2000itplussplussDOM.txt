@@ -1,0 +1,37 @@
+logg inn[loggin.php(FERIDG), logginn_validering(Cecille)] - 
+	- beskrivelse   
+	- log inn-form (Cecille)
+	- glemt passord (Cecille)
+		- registrer bruker[registrer.php, insert_registrer.php] - (mangler sikkerhet) - cecille,mari
+	 		- er du frilanser eller bedrift?
+			- epost, passord
+			- vis logg inn siden
+hjemmeside[index.php](etter man har logget inn)[indexInnlogget.php] - (Tor)
+	- header - (Tor)
+		- navbar[header.php]
+			- Instillinger (Mari, Cecille)
+				- endre passord
+				- slett bruker
+			- Profil	
+				- endre profil/annonse(frilanser) - mari
+					- Fornavn, Etternavn, Adr, Postnr, Tlf, Jobbtittel, Kompetanse, Rangert kompetanse, CV, Andre dokumenter, Nettside, GitHub, LinkedIn, Facebook, Om meg, Profilbilde, Send melding, Aktiv/inaktiv-knapp
+					- Min profil
+				- endre profil/annonse(bedrift) - mari
+					- Org.nr., Bedriftnavn, Adr, Postnr, Tlf, epost, Profilbilde, Nettside, fri tekst, aktiv/inaktiv-knapp
+					- Min profil
+			- Utforsk opprag[annonse.php] - (Khaled)
+				- Søkefelt(søkefunksjon) - (Tor)
+				- Kategori(knapp): Frilanser, Bedrift - (Tor)
+				- Vis profil(frilanser/bedrift) (sidetallsfunksjon) - (Khaled)
+			- Kontakt oss/Om oss[kontaktoss.php] -tor
+				- kontaktskjema
+				- Presentasjon
+			- Logg ut[loggut.php]
+
+- beskrivelse, kategoriknapper, artikler
+
+footer[footer.php] - Cecille
+
+
+
+
