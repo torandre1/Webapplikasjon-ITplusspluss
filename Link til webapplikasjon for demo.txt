@@ -1,0 +1,8 @@
+https://itfag.usn.no/grupper/h20gr4/index.php 
+
+Demobruker: test123@hotmail.com
+passord: Test12345
+
+Logg inn med demobruker for å teste webapplikasjon.
+
+webappikasjon er hostet hos ved USN, og vil mest sannsynlig bli lagt ned høsten 2023. 
